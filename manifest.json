@@ -1,0 +1,6 @@
+{
+  "manifest_version": 1,
+  "name": "Policy Buddy",
+  "version": "0.0.1",
+  "_comment": "version should be tied to our cicd for google chrome extension"
+}
