@@ -1,6 +1,15 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Policy Buddy",
   "version": "0.0.1",
-  "_comment": "version should be tied to our cicd for google chrome extension"
+  "permissions": [
+    "contextMenus",
+    "https://*/"
+  ],
+  "background": {
+    "scripts": ["javascript/background.js"],
+    "persistent": false
+  },
+  "_version_comment": "version should be tied to our cicd for google chrome extension",
+  "_web_comment": "we need to give permission for the url"
 }
